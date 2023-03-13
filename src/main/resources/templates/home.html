@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Laura Ramgil</title>
+    <link rel="stylesheet" type="text/css" th:href="@{css/styles.css}" href="/static/css/styles.css">
+</head>
+<body>
+    <div class="nav_container">
+
+        <img class="logo_img" src="../../static/images/LogoFinal.png" th:src="@{images/LogoFinal.png}" alt="logo">
+
+        <ul class="navigation_links">
+            <li><a th:href="@{/}">HOME</a></li>
+            <li><a th:href="@{/about-me}">ABOUT ME</a></li>
+            <li><a th:href="@{/projects}">PROJECTS</a></li>
+            <li><a th:href="@{/contact}">CONTACT</a></li>
+        </ul>
+
+    </div>
+</body>
+</html>
